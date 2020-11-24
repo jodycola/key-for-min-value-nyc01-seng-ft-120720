@@ -5,8 +5,6 @@ def key_for_min_value(name_hash)
   smallest = 99
   answer = ""
   
-  if name_hash.count == 0
-    return answer = nil
   name_hash.each do |key, val|
    if val < smallest
       smallest = val
