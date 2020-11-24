@@ -11,5 +11,9 @@ def key_for_min_value(name_hash)
       answer = key
     end
   end
+  if answer.length >= 1
   return answer
+else
+  return nil
+end
 end
